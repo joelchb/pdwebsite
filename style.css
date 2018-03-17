@@ -1,26 +1,15 @@
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 25%;
-    height: 25%;
-}
-
-.jumbotron {
-    max-height: 100px; text-align: center;
-}
-
-.vertical-center {
+.jumbotron vertical-center {
+    max-height: 100px;
+    text-align: center;
     display: flex;
     align-items: center;
-  }
+}
 
-
-
-.jumbotron > p {
+.jumbotron>p {
     text-align: center;
     font-size: 20px;
 }
 
-
-#header {padding-bottom: 50px;}
+#header {
+    padding-bottom: 50px;
+}
